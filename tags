@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/aniket/n8n-heroku/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+0	app.json	/^      "n8n",$/;"	s	array:keywords
+0	app.json	/^      {$/;"	o	array:addons
+1	app.json	/^      "node",$/;"	s	array:keywords
+1	app.json	/^      {$/;"	o	array:addons
+2	app.json	/^      "automation"$/;"	s	array:keywords
+Additional Requirements (for building on local)	README.md	/^### Additional Requirements (for building on local)$/;"	S	section:n8n-heroku""Using Container Registry
+GENERIC_TIMEZONE	app.json	/^      "GENERIC_TIMEZONE": {$/;"	o	object:env
+N8N_BASIC_AUTH_ACTIVE	app.json	/^      "N8N_BASIC_AUTH_ACTIVE": {$/;"	o	object:env
+N8N_BASIC_AUTH_PASSWORD	app.json	/^      "N8N_BASIC_AUTH_PASSWORD": {$/;"	o	object:env
+N8N_BASIC_AUTH_USER	app.json	/^      "N8N_BASIC_AUTH_USER": {$/;"	o	object:env
+N8N_ENCRYPTION_KEY	app.json	/^      "N8N_ENCRYPTION_KEY": {$/;"	o	object:env
+NODE_TLS_REJECT_UNAUTHORIZED	app.json	/^      "NODE_TLS_REJECT_UNAUTHORIZED": {$/;"	o	object:env
+PGSSLMODE	app.json	/^      "PGSSLMODE": {$/;"	o	object:env
+Requirements	README.md	/^## Requirements$/;"	s	chapter:n8n-heroku
+STEP 1: CHANGE your App Stack to container	README.md	/^### STEP 1: CHANGE your App Stack to container$/;"	S	section:n8n-heroku""Setup
+STEP 2: ADD Config Vars for enabling basic authentication (Optional)	README.md	/^### STEP 2: ADD Config Vars for enabling basic authentication (Optional)$/;"	S	section:n8n-heroku""Setup
+STEP 3: DONE! Now CONNECT Github repo and Deploy.	README.md	/^### STEP 3: DONE! Now CONNECT Github repo and Deploy.$/;"	S	section:n8n-heroku""Setup
+Setup	README.md	/^## Setup$/;"	s	chapter:n8n-heroku
+Sources	README.md	/^### Sources$/;"	S	section:n8n-heroku""Using Container Registry
+Steps	README.md	/^### Steps$/;"	S	section:n8n-heroku""Using Container Registry
+Using Container Registry	README.md	/^## Using Container Registry$/;"	s	chapter:n8n-heroku
+addons	app.json	/^    "addons": [$/;"	a
+change app stack	README.md	/^#### change app stack$/;"	t	subsection:n8n-heroku""Setup""STEP 1: CHANGE your App Stack to container
+description	app.json	/^        "description": "Basic Authentication Password to secure n8n.",$/;"	s	object:env.N8N_BASIC_AUTH_PASSWORD
+description	app.json	/^        "description": "Basic Authentication User for n8n",$/;"	s	object:env.N8N_BASIC_AUTH_USER
+description	app.json	/^        "description": "Because Heroku SSL is self signed, SSL fails if this is not set to 0",$/;"	s	object:env.NODE_TLS_REJECT_UNAUTHORIZED
+description	app.json	/^        "description": "Heroku made a change so SSL is required to connect to Postgres",$/;"	s	object:env.PGSSLMODE
+description	app.json	/^        "description": "Protect n8n setup with basic authentication.",$/;"	s	object:env.N8N_BASIC_AUTH_ACTIVE
+description	app.json	/^        "description": "This is to set the n8n encryption key to a static value, so that heroku /;"	s	object:env.N8N_ENCRYPTION_KEY
+description	app.json	/^        "description": "Time Zone to use with Heroku. You can find the name of your timezone her/;"	s	object:env.GENERIC_TIMEZONE
+description	app.json	/^    "description": "deploy n8n to heroku without any hassle",$/;"	s
+env	app.json	/^    "env": {$/;"	o
+formation	app.json	/^    "formation": {$/;"	o
+keywords	app.json	/^    "keywords": [$/;"	a
+login into heroku account	README.md	/^#### login into heroku account$/;"	t	subsection:n8n-heroku""Setup""STEP 1: CHANGE your App Stack to container
+logo	app.json	/^    "logo": "https:\/\/raw.githubusercontent.com\/n8n-io\/n8n\/master\/packages\/editor-ui\/publ/;"	s
+n8n(Nodemation) - Free and Open Workflow Automation Tool	README.md	/^### n8n(Nodemation) - Free and Open Workflow Automation Tool$/;"	S	chapter:n8n-heroku
+n8n-heroku	README.md	/^# n8n-heroku$/;"	c
+name	app.json	/^    "name": "n8n",$/;"	s
+options	app.json	/^        "options": {$/;"	o	object:addons.0
+parse_url	start.sh	/^parse_url() {$/;"	f
+plan	app.json	/^        "plan": "heroku-postgresql",$/;"	s	object:addons.0
+plan	app.json	/^        "plan": "papertrail:choklad"$/;"	s	object:addons.1
+quantity	app.json	/^        "quantity": 1,$/;"	n	object:formation.web
+repository	app.json	/^    "repository": "https:\/\/github.com\/sarveshwarge\/n8n-heroku",$/;"	s
+size	app.json	/^        "size": "free"$/;"	s	object:formation.web
+stack	app.json	/^    "stack": "container",$/;"	s
+success_url	app.json	/^    "success_url": "\/",$/;"	s
+value	app.json	/^        "value": "Europe\/Berlin"$/;"	s	object:env.GENERIC_TIMEZONE
+value	app.json	/^        "value": "MdRRn2jiZuVeh5tI77A6"$/;"	s	object:env.N8N_ENCRYPTION_KEY
+value	app.json	/^        "value": "pass"$/;"	s	object:env.N8N_BASIC_AUTH_PASSWORD
+value	app.json	/^        "value": "require"$/;"	s	object:env.PGSSLMODE
+value	app.json	/^        "value": "true"$/;"	s	object:env.N8N_BASIC_AUTH_ACTIVE
+value	app.json	/^        "value": "user"$/;"	s	object:env.N8N_BASIC_AUTH_USER
+value	app.json	/^        "value": 0$/;"	n	object:env.NODE_TLS_REJECT_UNAUTHORIZED
+version	app.json	/^          "version": "11"$/;"	s	object:addons.0.options
+web	app.json	/^      "web": {$/;"	o	object:formation
+website	app.json	/^    "website": "https:\/\/n8n.io",$/;"	s
